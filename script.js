@@ -37,7 +37,7 @@ function changeContent(event){
         illustration.src = contentList[target - 1].img
         flexBoard.classList.remove("flex-board-close");
         flexBoard.classList.add("flex-board-open");
-    }, 200)
+    }, 100)
 
     selectedMenuId = target;
 }

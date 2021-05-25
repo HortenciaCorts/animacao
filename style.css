@@ -57,6 +57,10 @@ body{
     height: 60px;
     color: var(--primary-color);
 }
+.menu svg:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
 svg.selected{
     color: var(--purple);
 }
